@@ -1,0 +1,89 @@
+.feedback-form {
+  padding: 24px;
+}
+
+.email-label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 8px;
+  font-weight: 400px;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+}
+
+.inpt {
+  padding-left: 16px;
+  outline: transparent;
+  border: 1px solid #808080;
+  height: 40px;
+  width: 360px;
+  margin-top: 8px;
+  border-radius: 4px;
+}
+
+.inpt::placeholder {
+  color: transparent;
+}
+
+.inpt:focus::placeholder {
+  color: black;
+}
+
+.inpt:hover,
+.inpt:focus {
+  border: 1px solid #000000;
+  border-radius: 4px;
+}
+
+.message-label {
+  display: flex;
+  flex-direction: column;
+}
+
+.txt {
+  height: 80px;
+  width: 360px;
+  margin-top: 8px;
+  margin-bottom: 16px;
+  padding-left: 16px;
+  border-radius: 4px;
+  font-weight: 400px;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  resize: none;
+  outline: transparent;
+  border: 1px solid #808080;
+}
+
+.txt::placeholder {
+  color: transparent;
+}
+
+.txt:hover,
+.txt:focus {
+  border: 1px solid #000000;
+}
+
+.txt:focus::placeholder {
+  color: black;
+}
+
+.sbmt-btn {
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  background-color: #4e75ff;
+  color: #ffffff;
+  font-weight: 500px;
+  font-style: medium;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+}
+
+.sbmt-btn:hover,
+.sbmt-btn:focus {
+  background-color: #6c8cff;
+}
